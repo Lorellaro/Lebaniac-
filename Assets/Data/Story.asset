@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf5d5e33bab057c43929a11bc8f25f44, type: 3}
+  m_Name: Story
+  m_EditorClassIdentifier: 
+  _beats:
+  - _choices:
+    - _text: Continue Driving
+      _beatId: 2
+    _text: 'It is a cool, dark night and you are driving across a long icy open stretch
+      of road.
+
+'
+    _id: 1
+  - _choices:
+    - _text: Say your prayers.
+      _beatId: 3
+    - _text: Cry.
+      _beatId: 3
+    _text: Suddenly the car is blasted by a tremendous wind and all control is lost.
+    _id: 2
+  - _choices:
+    - _text: Try to move.
+      _beatId: 4
+    _text: 'You awake numb, motionless, broken. '
+    _id: 3
+  - _choices:
+    - _text: Continue
+      _beatId: 5
+    _text: You try to move, alas it appears as if those prayers were of no help.
+      You are dead.
+    _id: 4
+  - _choices:
+    - _text: Cry some more.
+      _beatId: 6
+    - _text: Pray some more.
+      _beatId: 6
+    _text: You try to make out a hallowed figure approaching you.
+    _id: 5
+  - _choices:
+    - _text: Sure!
+      _beatId: 8
+    - _text: Hahahaha, no.
+      _beatId: 10
+    _text: 'After a lot of suffering, the shadowy figure finally arrives in front
+      of you.
+
+      "Do you wish to live?"'
+    _id: 6
+  - _choices:
+    - _text: I'm literally a professional gamer you know you're going to lose right?
+      _beatId: 9
+    _text: '"Then prove it! Beat me at my own game and Live."'
+    _id: 8
+  - _choices:
+    - _text: Ok.
+      _beatId: 11
+    _text: '"SHUTUP AND PLAY!"'
+    _id: 9
+  - _choices:
+    - _text: Ok.
+      _beatId: 11
+    _text: '"Wow, jeez I''m sorry bro what happened? Look just play me at this game
+      and then we''ll talk about your depression afterwards."'
+    _id: 10
+  - _choices:
+    - _text: Ok.
+      _beatId: 10
+    _text: 
+    _id: 11
+  - _choices:
+    - _text: Ok.
+      _beatId: 10
+    _text: '"WHAT? YOU BEAT ME? FINE! YOU MAY LIVE AGAIN."'
+    _id: 12
